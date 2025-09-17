@@ -1,0 +1,119 @@
+.font {
+ font-family: 'Trebuchet MS', sans-serif;
+}
+.testimonies {
+  display: flex;       /* Alínea los testimonios uno al lado del otro */
+  gap: 20px;           /* Espacio entre columnas */
+ 
+}
+.container1 {
+  flex: 1;
+    border: 2px solid #333;    /* Borde de 2px de color gris oscuro */
+  padding: 10px;             /* Espacio interno entre borde y texto */
+  margin: 20px 0;            /* Espacio externo entre otros elementos */
+  border-radius: 10px;       /* Bordes redondeados */
+  background-color: #000000; /* Color de fondo del cuadro */
+  max-width: 400px;    
+}
+.text {
+    color: white;
+
+}
+.name1 {
+    padding-left: 20px;
+}
+.testimony1 {
+    flex-direction: column;
+}
+.profile-pic {
+  width: 80px;          /* Tamaño de la imagen */
+  height: 80px;
+  border-radius: 50%;   /* Hace la imagen redonda */
+  object-fit: cover;    /* Ajusta la imagen al círculo */
+ margin-left: 40px;
+}
+.author-section {
+  display: flex;       /* Alinea la imagen y el nombre en fila */
+  align-items: center; /* Centra verticalmente la imagen con el texto */
+  gap: 10px;           /* Espacio entre imagen y nombre */
+}
+.author-info {
+  display: flex;
+  flex-direction: column; /* Nombre arriba, descripción abajo */
+  align-items: flex-start;
+}
+.container2 {
+    flex: 1;
+    border: 2px solid #333;    /* Borde de 2px de color gris oscuro */
+  padding: 10px;             /* Espacio interno entre borde y texto */
+  margin: 20px 0;            /* Espacio externo entre otros elementos */
+  border-radius: 10px;       /* Bordes redondeados */
+  background-color: #ffffff; /* Color de fondo del cuadro */
+  max-width: 400px; 
+  height: 250px;
+}
+.text2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.testimony3 {
+    display: flex;
+   
+}
+.container3 {
+    flex: 1;
+    border: 2px solid #333;    /* Borde de 2px de color gris oscuro */
+  padding: 10px;             /* Espacio interno entre borde y texto */
+  margin: 20px 0;            /* Espacio externo entre otros elementos */
+  border-radius: 10px;       /* Bordes redondeados */
+  background-color: #000000; /* Color de fondo del cuadro */
+  max-width: 450px; 
+  height: 238px;
+ 
+  
+}
+.text3 {
+    color: white;
+    margin-left: 20px;
+}
+
+.profile-pic-jackie {
+    width: 260px;          /* Tamaño de la imagen */
+  height: 260px;
+  object-fit: cover;    /* Ajusta la imagen al círculo */
+ margin-left: 40px;
+ margin-right: 20px;
+ margin-top: 20px;
+ border-radius: 10px;
+}
+.profile-pic-stars {
+        width: 100px;          /* Tamaño de la imagen */
+  object-fit: cover;    /* Ajusta la imagen al círculo */
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: 20px;
+ border-radius: 10px;
+}
+.text3b {
+    color: gray;
+    margin-left: 20px;
+}
+.container4 {
+    flex: 1;
+    border: 2px solid #333;    /* Borde de 2px de color gris oscuro */
+  padding: 10px;             /* Espacio interno entre borde y texto */
+  margin: 20px 0;            /* Espacio externo entre otros elementos */
+  border-radius: 10px;       /* Bordes redondeados */
+  background-color: #ffffff; /* Color de fondo del cuadro */
+  max-width: 800px; 
+}
+.text4 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.text5 {
+       margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
